@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesut Kiraz | Portfolio</title>
+    <!-- Tailwind CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- AOS via CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .neon-emerald {
+            color: #10B981;
+        }
+        .deep-space-black {
+            background-color: #0A0A0A;
+            color: white;
+        }
+        .card-border {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Hero Section -->
+    <section class="deep-space-black py-24 flex justify-center items-center" data-aos="fade-in">
+        <div class="text-center">
+            <h1 class="text-5xl font-bold neon-emerald">Creative Web Developer | 3D Artist</h1>
+            <p class="mt-4 text-xl">Experienced in game development and digital design with a passion for innovative solutions.</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">About Me</h2>
+            <p><strong>Professional Experience:</strong> FOKUR DESIGN STUDIO, AÇI YAYINLARI</p>
+            <p><strong>Technical Skills:</strong> Web development, Babylon.js, Unity, graphic design.</p>
+            <p><strong>Educational Background:</strong> [Include details here].</p>
+            <p><strong>Certifications:</strong> [Include details here].</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-24 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="card-border p-6 rounded-lg backdrop-blur-lg" data-aos="fade-up">
+                    <img src="https://via.placeholder.com/400x300?text=ROWA+Space+Station" alt="ROWA Space Station" class="w-full mb-4">
+                    <h3 class="text-xl font-bold">ROWA Space Station</h3>
+                    <p>Description of the project and technologies used.</p>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="card-border p-6 rounded-lg backdrop-blur-lg" data-aos="fade-up">
+                    <img src="https://via.placeholder.com/400x300?text=The+Untouchables" alt="The Untouchables" class="w-full mb-4">
+                    <h3 class="text-xl font-bold">The Untouchables</h3>
+                    <p>Description of the project and technologies used.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Skills Category 1 -->
+                <div class="card-border p-6 rounded-lg backdrop-blur-lg" data-aos="fade-up">
+                    <h3 class="text-xl font-bold">Web Development</h3>
+                    <ul class="list-disc pl-5 mt-4">
+                        <li>HTML/CSS/JS</li>
+                        <li>React, Vue.js, Angular</li>
+                        <li>Node.js, Express</li>
+                    </ul>
+                </div>
+                <!-- Skills Category 2 -->
+                <div class="card-border p-6 rounded-lg backdrop-blur-lg" data-aos="fade-up">
+                    <h3 class="text-xl font-bold">Gaming Engines</h3>
+                    <ul class="list-disc pl-5 mt-4">
+                        <li>Babylon.js</li>
+                        <li>Unity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-24 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Contact</h2>
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <a href="https://github.com/Mesutkiraz" target="_blank" class="neon-emerald hover:text-green-600 transition duration-300 mr-4 mb-4 md:mb-0">GitHub</a>
+                <a href="https://www.linkedin.com/in/mesut-kiraz/" target="_blank" class="neon-emerald hover:text-green-600 transition duration-300 mr-4 mb-4 md:mb-0">LinkedIn</a>
+                <a href="mailto:mesutkrz@outlook.com" class="neon-emerald hover:text-green-600 transition duration-300 mr-4 mb-4 md:mb-0">Email</a>
+                <p>+90 543 397 2589 (Mobile)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-gray-900 text-center">
+        <p>&copy; 2023 Mesut Kiraz. All rights reserved.</p>
+    </footer>
+
+    <!-- AOS JS via CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'slide',
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesut Kiraz - Game Developer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS.js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <style>
+        /* AOS Fallback - Prevent black screen */
+        [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        .aos-animate {
+            pointer-events: auto;
+        }
+        /* Ensure visibility before JS loads */
+        body {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-inter">
+    <div class="grid grid-cols-12 gap-4 p-4">
+        <!-- Hero -->
+        <div class="col-span-12 flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-down">
+            <h1 class="text-5xl font-bold">Mesut Kiraz</h1>
+            <h2 class="text-3xl font-semibold">Game Developer</h2>
+            <p class="text-xl">Experienced Game Developer with a Focus on Complex Systems and High-Quality Deliveries</p>
+            <div class="flex space-x-4">
+                <a href="https://linkedin.com/in/mesut-kiraz" target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="linkedin" class="text-2xl text-emerald-400"></i>
+                </a>
+                <a href="https://github.com/Mesutkiraz" target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="github" class="text-2xl text-emerald-400"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="col-span-12 md:col-span-8 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-2xl font-semibold mb-4">About Me</h3>
+            <p>Ankara, Türkiye | +90 (543) 397-2589 | mesutkrz@outlook.com</p>
+            <p>github.com/Mesutkiraz | linkedin.com/in/mesut-kiraz</p>
+            <p>Oyun geliştirici deneyimli bir kadın. Çok oyunculu sistemlerle ilgili tecrübeleriyle, hem frontend hem de backend projeleri geliştirmiş, optimizasyon yapmış ve yüksek kaliteli projeleri teslim etmiş.</p>
+        </div>
+
+        <!-- Skills -->
+        <div class="col-span-12 md:col-span-4 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-2xl font-semibold mb-4">Skills</h3>
+            <div class="flex flex-wrap space-x-2 space-y-2">
+                <!-- Languages -->
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">JavaScript (Mid)</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">C# (Mid)</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">HTML</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">CSS</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">SQL</span>
+
+                <!-- Frameworks -->
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Node.js</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Babylon.js</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Git</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Unity</span>
+
+                <!-- Tools -->
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Photoshop</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Illustrator</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">InDesign</span>
+
+                <!-- Specialties -->
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Oyun Geliştirme</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Optimizasyon</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Veritabanı Yönetimi</span>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="col-span-12 md:col-span-6 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-2xl font-semibold mb-4">ROWA Space Station</h3>
+            <p>Oyuncuların sosyal etkinlikler yapabilecek bir metaverse oyunu.</p>
+            <div class="flex flex-wrap space-x-2 space-y-2">
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Node.js</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Babylon.js</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">PHP</span>
+            </div>
+        </div>
+        <div class="col-span-12 md:col-span-6 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-2xl font-semibold mb-4">The Untouchables</h3>
+            <p>Rekabetçi bir oyun, iki veya daha fazla oyuncuların platform üzerinden itmelerini yöneten bir sistem.</p>
+            <div class="flex flex-wrap space-x-2 space-y-2">
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Node.js</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">Babylon.js</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+                <span class="bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-sm">PHP</span>
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="col-span-12 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-2xl font-semibold mb-4">Experience</h3>
+            <div class="space-y-4">
+                <div>
+                    <h4 class="text-xl font-semibold">Oyun Gelistirici, Fokur Design Studio</h4>
+                    <p class="text-gray-400">Ağustos 2023 – Kasım 2024</p>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>Babylon.js kullanarak 'Rowa Space Station' ve 'The Untouchables' gibi çok oyunculu oyunlar geliştirdim.</li>
+                        <li>ROWA SPACE STATION: Oyuncuların birbirleriyle çeşitli sosyal aktiviteler yapabileceği bir metaverse.</li>
+                        <li>The Untouchables: İki veya daha fazla oyuncunun birbirini bir platformdan itmeye çalıştığı rekabetçi bir oyun.</li>
+                        <li>Bu projelerin backend tarafını yöneterek veritabanları ve çevrimiçi iletişim kütüphanelerini projede kullandım.</li>
+                        <li>Oyunların frontend tarafında kapsamlı çalışmalar yaparak web sayfalarını tasarladım ve uyguladım.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-span-12 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+            <p>Ankara, Türkiye | +90 (543) 397-2589 | mesutkrz@outlook.com</p>
+            <div class="flex space-x-4">
+                <a href="https://linkedin.com/in/mesut-kiraz" target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="linkedin" class="text-2xl text-emerald-400"></i>
+                </a>
+                <a href="https://github.com/Mesutkiraz" target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="github" class="text-2xl text-emerald-400"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            // Initialize Lucide icons
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+            
+            // Initialize AOS with safe settings
+            if (typeof AOS !== 'undefined') {
+                AOS.init({
+                    duration: 800,
+                    once: true,
+                    offset: 50,
+                    disable: 'mobile'
+                });
+            }
+            
+            // Fallback: ensure all elements visible after 1 second
+            setTimeout(function() {
+                document.querySelectorAll('[data-aos]').forEach(function(el) {
+                    el.classList.add('aos-animate');
+                });
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

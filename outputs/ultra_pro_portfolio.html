@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesut Kiraz - Modern Web Designer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+        .glassmorphism {
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 2rem;
+        }
+        .custom-cursor {
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle cx="20" cy="20" r="15" fill="#FFFFFF"></circle></svg>'), auto;
+        }
+    </style>
+</head>
+<body class="custom-cursor">
+    <header class="text-center py-16">
+        <h1 class="text-6xl font-bold mb-4">Mesut Kiraz</h1>
+        <p class="text-xl">Modern Web Designer | Senior Tech Recruiter</p>
+    </header>
+
+    <section id="hero" class="bg-black text-white py-20 glassmorphism" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-5xl font-bold mb-8">ROWA Space Station</h2>
+            <p class="text-lg">A metaverse platform designed for social interaction, developed using Babylon.js and Node.js.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-black text-white py-20 glassmorphism" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-5xl font-bold mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-black text-white p-6 glassmorphism">
+                    <h3 class="text-3xl font-bold mb-4">Project 1</h3>
+                    <p>Enhanced user engagement through interactive game mechanics.</p>
+                </div>
+                <div class="bg-black text-white p-6 glassmorphism">
+                    <h3 class="text-3xl font-bold mb-4">Project 2</h3>
+                    <p>Improved efficiency with automated backend solutions.</p>
+                </div>
+                <div class="bg-black text-white p-6 glassmorphism">
+                    <h3 class="text-3xl font-bold mb-4">Project 3</h3>
+                    <p>Innovative social media experiences within a 3D environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-black text-white py-20 glassmorphism" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-5xl font-bold mb-8">Contact</h2>
+            <p>Email: mesut.kiraz@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mesutkiraz" target="_blank" class="text-green-500 hover:text-green-600">linkedin.com/in/mesutkiraz</a></p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

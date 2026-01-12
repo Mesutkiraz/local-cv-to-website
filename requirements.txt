@@ -1,0 +1,10 @@
+# AI Agent Pipeline: CV to Portfolio Generator
+# ==============================================
+
+# PDF text extraction
+pdfplumber>=0.10.0
+
+# Ollama Python client for local LLM inference
+ollama>=0.3.0
+
+# Note: tkinter comes with Python standard library (no pip install needed)

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesut Kiraz - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/3.4.2/tailwind.min.css">
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        :root {
+            --primary-color: #7000ff;
+            --secondary-color: #4a5229;
+            --background-color: #0a192f;
+            --text-color: #ffffff;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .nav-links a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin-left: 2rem;
+        }
+
+        .hero {
+            padding: 8rem 0 4rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 4rem 0;
+        }
+
+        .project-card {
+            background-color: var(--secondary-color);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .project-info {
+            padding: 1.5rem;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: var(--secondary-color);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-links {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .social-links a {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin: 0 1rem;
+        }
+
+        footer {
+            background-color: var(--background-color);
+            padding: 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">MKS</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>MESUT KIRAZ</h1>
+        <p>Creative Developer with a Focus on Game and UI/UX Design</p>
+    </section>
+
+    <!-- Project Cards Section -->
+    <section class="project-cards" id="projects">
+        <div class="project-card">
+            <img src="https://mesutkrz.github.io/images/ROWA_SpaceStation.jpg" alt="ROWA Space Station">
+            <div class="project-info">
+                <h3>ROWA Space Station</h3>
+                <p>Metaverse platform with social activities.</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="https://mesutkrz.github.io/images/TheUntouchables.jpg" alt="The Untouchables">
+            <div class="project-info">
+                <h3>The Untouchables</h3>
+                <p>Competitive multiplayer game.</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="https://mesutkrz.github.io/images/freelance.jpg" alt="Game Clone">
+            <div class="project-info">
+                <h3>Game Clones</h3>
+                <p>Developed clones of popular games.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="py-12" id="about">
+        <h2>About Me</h2>
+        <div class="flex flex-wrap">
+            <div class="w-full md:w-1/2 p-4 mb-4">
+                <img src="https://mesutkrz.github.io/images/education.jpg" alt="Education Background" class="w-full rounded-lg">
+                <p><strong>Bachelor's Degree in Computer Programming</strong><br>
+                Çanakkale Onsekiz Mart University, 2020-2022</p>
+            </div>
+            <div class="w-full md:w-1/2 p-4 mb-4">
+                <img src="https://mesutkrz.github.io/images/training.jpg" alt="Training Certificate" class="w-full rounded-lg">
+                <p><strong>Unity 3D Game Development Training</strong><br>
+                BTK Akademi, 2021-2022</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-form" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required class="w-full p-2 mb-4 rounded-lg">
+            <input type="email" placeholder="Your Email" required class="w-full p-2 mb-4 rounded-lg">
+            <textarea rows="5" placeholder="Your Message" required class="w-full p-2 mb-4 rounded-lg"></textarea>
+            <button type="submit" class="bg-primary-color text-white py-2 px-4 rounded-lg">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Social Media -->
+    <div class="social-links">
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mesut Kiraz. All rights reserved.</p>
+    </footer>
+</body>
+</html>

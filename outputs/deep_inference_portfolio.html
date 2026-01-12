@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesut Kiraz - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        .neon {
+            text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 15px #39ff14, 0 0 20px #39ff14;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <header class="p-6 glass flex justify-between items-center">
+        <h1 class="text-3xl font-bold neon">Mesut Kiraz</h1>
+        <nav>
+            <a href="#about" class="mx-4 hover:text-gray-300">About</a>
+            <a href="#experience" class="mx-4 hover:text-gray-300">Experience</a>
+            <a href="#education" class="mx-4 hover:text-gray-300">Education</a>
+            <a href="#skills" class="mx-4 hover:text-gray-300">Skills</a>
+        </nav>
+    </header>
+
+    <section id="about" class="p-12 glass mt-8">
+        <h2 class="text-2xl font-bold mb-6 neon">About Me</h2>
+        <p class="text-lg">
+            Experienced Full Stack Developer with a strong background in both game development and full-stack programming. Proficient in managing complex projects, ensuring efficient communication between backend and frontend technologies.
+        </p>
+    </section>
+
+    <section id="experience" class="p-12 glass mt-8">
+        <h2 class="text-2xl font-bold mb-6 neon">Work Experience</h2>
+        <div data-aos="fade-up" class="mb-8">
+            <h3 class="text-xl font-bold">FOKUR DESIGN STUDIO – MUGLA, TÜRKİYE</h3>
+            <p class="text-gray-400 mb-2">Full Stack Developer (01/08/2023 – 30/04/2024)</p>
+            <ul class="list-disc pl-6">
+                <li>Developed ROWA Space Station, a metaverse platform for social activities.</li>
+                <li>Created The Untouchables, a competitive multiplayer game focused on player interactions.</li>
+            </ul>
+        </div>
+        <div data-aos="fade-up" class="mb-8">
+            <h3 class="text-xl font-bold">Freelance Developer – ANKARA, TÜRKİYE</h3>
+            <p class="text-gray-400 mb-2">(01/01/2022 – 01/08/2023)</p>
+            <ul class="list-disc pl-6">
+                <li>Developed clones of popular games and published them on GitHub.</li>
+                <li>Contributed to open-source projects, showcasing advanced programming skills.</li>
+            </ul>
+        </div>
+        <div data-aos="fade-up" class="mb-8">
+            <h3 class="text-xl font-bold">AÇI YAYINLARI – ANKARA, TÜRKİYE</h3>
+            <p class="text-gray-400 mb-2">Graphic Artist (01/07/2020 – 30/08/2022)</p>
+            <ul class="list-disc pl-6">
+                <li>Designed and prepared page layouts for educational materials.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education" class="p-12 glass mt-8">
+        <h2 class="text-2xl font-bold mb-6 neon">Education</h2>
+        <div data-aos="fade-up" class="mb-4">
+            <h3 class="text-xl font-bold">Associate Degree in Computer Programming</h3>
+            <p class="text-gray-400">Çanakkale Onsekiz Mart University, Turkey (2020–2022)</p>
+        </div>
+        <div data-aos="fade-up" class="mb-4">
+            <h3 class="text-xl font-bold">Unity Ile 3D Oyun Geliştirme BTK Akademi</h3>
+            <p class="text-gray-400">Unity Development with 3D Games</p>
+        </div>
+        <div data-aos="fade-up" class="mb-4">
+            <h3 class="text-xl font-bold">Unity İle EĞITICI OYUNLAR BTK Akademi</h3>
+        </div>
+    </section>
+
+    <section id="skills" class="p-12 glass mt-8">
+        <h2 class="text-2xl font-bold mb-6 neon">Skills</h2>
+        <div data-aos="fade-up" class="mb-4">
+            <h3 class="text-xl font-bold">Programming Languages</h3>
+            <p>C#, Node.js, HTML, CSS, JavaScript, PHP, Python, Java</p>
+        </div>
+        <div data-aos="fade-up" class="mb-4">
+            <h3 class="text-xl font-bold">Tools & Platforms</h3>
+            <p>Unity, Git, Photoshop, Illustrator, InDesign</p>
+        </div>
+        <div data-aos="fade-up" class="mb-4">
+            <h3 class="text-xl font-bold">Languages</h3>
+            <p>Turkish (Mother tongue), English (B2 level)</p>
+        </div>
+        <div data-aos="fade-up" class="mb-4">
+            <h3 class="text-xl font-bold">Other Skills</h3>
+            <p>Teamwork, Problem-solving</p>
+        </div>
+    </section>
+
+    <footer class="p-6 glass mt-8 text-center">
+        <a href="mailto:mesutkrz@outlook.com" class="mx-4 hover:text-gray-300">Email</a>
+        <a href="tel:+905433972589" class="mx-4 hover:text-gray-300">Phone</a>
+        <a href="https://www.linkedin.com/in/mesut-kiraz/" target="_blank" class="mx-4 hover:text-gray-300">LinkedIn</a>
+        <a href="https://github.com/Mesutkiraz" target="_blank" class="mx-4 hover:text-gray-300">GitHub</a>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

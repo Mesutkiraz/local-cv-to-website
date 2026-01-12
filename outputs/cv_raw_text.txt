@@ -1,0 +1,47 @@
+Mesut Kiraz
+Work permit: Turkish Date of birth: 06/02/2001 Place of birth: Ankara, Türkiye Nationality: Turkish
+Phone number: (+90) 5433972589 (Mobile) Email address: mesutkrz@outlook.com LinkedIn:
+https://www.linkedin.com/in/mesut-kiraz/ Github: https://github.com/Mesutkiraz
+Address: esertepe mahallesi 281. sokak 8/10 Kecioren/ANKARA, 06220, ANKARA, Türkiye (Home)
+WORK EXPERIENCE
+ FOKUR DESIGN STUDIO – MUGLA, TÜRKIYE
+FULL STACK DEVELOPER – 01/08/2023 – 30/04/2024
+• Developed multiplayer browser-based games using Babylon.js.
+• ROWA Space Station: Created a metaverse platform where players can engage in various social activities.
+• The Untouchables: Developed a competitive multiplayer game where players try to push each other off a platform.
+• Managed backend infrastructure using Node.js and PostgreSQL, ensuring efficient realtime communication.
+• Designed and implemented responsive web pages and in-game UI components.
+• Delivered multiple projects within short timelines while maintaining code quality.
+Technologies: Node.js, Babylon.js, PostgreSQL, PHP, HTML, CSS, JavaScript.
+ – ANKARA, TÜRKIYE
+FREELANCE DEVELOPER – 01/01/2022 – 01/08/2023
+• Developed clones of popular games and published them on GitHub.
+• Contributed to open-source projects and showcased advanced programming skills.
+• Focused on gameplay mechanics, optimization, and clean code practices.
+Technologies: JavaScript, C#, HTML, CSS, SQL, Unity, PostgreSQL, Git
+ AÇI YAYINLARI – ANKARA, TÜRKIYE
+GRAPHIC ARTIST – 01/07/2020 – 30/08/2022
+• Designed and prepared page layouts for educational materials.
+• Used industry-standard tools for high-quality visual production.
+Technologies: Photoshop, Illustrator, InDesign
+EDUCATION AND TRAINING
+01/09/2020 – 15/06/2022 Çanakkale, Türkiye
+ASSOCIATE DEGREE – COMPUTER PROGRAMMING Çanakkale Onsekiz Mart University – Çanakkale, Türkiye
+Websitehttps://www.comu.edu.tr/
+05/12/2022 Ankara, Türkiye
+UNITY ILE 3D OYUN GELIŞTIRME BTK Akademi
+Websitehttps://www.btkakademi.gov.tr/
+15/11/2022 Ankara, Türkiye
+UNITY İLE EĞITICI OYUNLAR BTK Akademi
+Websitehttps://www.btkakademi.gov.tr/
+
+LANGUAGE SKILLS
+Mother tongue(s): TURKISH
+Other language(s):
+UNDERSTANDING SPEAKING WRITING
+Listening Reading Spoken production Spoken interaction
+ENGLISH B2 B2 B2 B2 B2
+Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user
+SKILLS
+Microsoft Office C# Node.js HTML Babylon.js MongoDB PHP JavaScript CSS Python Java
+Unity Git Photoshop Adobe Illusturator Node

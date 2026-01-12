@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesut Kiraz | Game Developer Portfolio</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <style>
+    body { background-color: #050505; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+    .bento-card {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .bento-card:hover {
+      border-color: #10b981;
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px -10px rgba(16, 185, 129, 0.3);
+    }
+    .neon-text { color: #10b981; text-shadow: 0 0 10px rgba(16, 185, 129, 0.5); }
+  </style>
+</head>
+<body class="text-gray-300">
+
+  <section class="min-h-screen flex items-center justify-center px-6">
+    <div class="text-center" data-aos="zoom-out" data-aos-duration="1000">
+      <h1 class="text-6xl md:text-8xl font-bold text-white mb-4 tracking-tighter" style="font-family: 'Space Grotesk';">
+        MESUT <span class="neon-text">KİRAZ</span>
+      </h1>
+      <p class="text-xl md:text-2xl font-light text-gray-400 max-w-2xl mx-auto">
+        Full Stack Developer & Game Developer focusing on <span class="text-white">Unity</span> and <span class="text-white">Babylon.js</span>.
+      </p>
+      <div class="mt-10 flex justify-center gap-6">
+        <a href="https://github.com/Mesutkiraz" target="_blank" class="bento-card px-8 py-3 rounded-full text-white">GitHub</a>
+        <a href="mailto:mesutkrz@outlook.com" class="bg-emerald-600 hover:bg-emerald-500 px-8 py-3 rounded-full text-black font-bold transition-all">İletişim</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold text-white mb-12" data-aos="fade-right">Öne Çıkan Projeler</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <div class="md:col-span-2 bento-card p-8 rounded-3xl" data-aos="fade-up">
+        <h3 class="text-2xl font-bold text-white mb-4">ROWA Space Station</h3>
+        <p class="text-gray-400 mb-6">Babylon.js ve Node.js kullanılarak geliştirilen, oyuncuların etkileşime girebildiği gelişmiş bir Metaverse platformu.</p>
+        <div class="flex gap-3 flex-wrap">
+          <span class="text-xs bg-white/10 px-3 py-1 rounded-md text-emerald-400">Babylon.js</span>
+          <span class="text-xs bg-white/10 px-3 py-1 rounded-md text-emerald-400">Node.js</span>
+          <span class="text-xs bg-white/10 px-3 py-1 rounded-md text-emerald-400">PostgreSQL</span>
+        </div>
+      </div>
+
+      <div class="bento-card p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="text-2xl font-bold text-white mb-4">The Untouchables</h3>
+        <p class="text-gray-400">Rekabetçi çok oyunculu oyun deneyimi. Fizik motoru ve gerçek zamanlı senkronizasyon odaklı.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Önce kütüphanelerin yüklendiğinden emin oluyoruz
+    window.addEventListener('load', () => {
+      lucide.createIcons();
+      AOS.init({
+        duration: 800,
+        once: true,
+        offset: 100
+      });
+    });
+  </script>
+</body>
+</html>

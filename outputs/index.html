@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesut Kiraz - Full Stack Developer</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <style>
+        /* AOS Fallback - Prevent black screen */
+        [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        .aos-animate {
+            pointer-events: auto;
+        }
+        /* Ensure visibility before JS loads */
+        body {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-inter">
+    <div class="grid grid-cols-12 gap-4 p-4">
+        <!-- Hero -->
+        <div class="col-span-12 flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-down">
+            <h1 class="text-5xl font-bold">Mesut Kiraz</h1>
+            <h2 class="text-3xl font-semibold">Full Stack Developer</h2>
+            <p class="text-xl">Creative Developer Building Immersive Gaming Experiences</p>
+            <div class="flex space-x-4">
+                <a href="https://www.linkedin.com/in/mesut-kiraz/" target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="linkedin" class="w-6 h-6 text-emerald-400"></i>
+                </a>
+                <a href="https://github.com/Mesutkiraz" target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="github" class="w-6 h-6 text-emerald-400"></i>
+                </a>
+                <a href="https://www.comu.edu.tr" target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="globe" class="w-6 h-6 text-emerald-400"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="col-span-12 md:col-span-8 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-xl font-semibold mb-4">About Me</h3>
+            <p>Experienced Full Stack Developer with expertise in creating multiplayer browser-based games. Skilled in technologies like Node.js, PostgreSQL, and Unity. Holds an Associate Degree in Computer Programming from Çanakkale Onsekiz Mart University.</p>
+        </div>
+
+        <!-- Skills -->
+        <div class="col-span-12 md:col-span-4 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-xl font-semibold mb-4">Skills</h3>
+            <div class="flex flex-wrap gap-2">
+                <!-- Languages -->
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Turkish</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">English</span>
+                <!-- Frameworks -->
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Node.js</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">PostgreSQL</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Unity</span>
+                <!-- Tools -->
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Babylon.js</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">GitHub</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">LinkedIn</span>
+                <!-- Specialties -->
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Game Development</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Web Development</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Unity</span>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="col-span-12 md:col-span-6 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-xl font-semibold mb-4">ROWA Space Station</h3>
+            <p>Metaverse platform with social activities.</p>
+            <div class="flex flex-wrap gap-2 mt-2">
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Babylon.js</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Node.js</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">PostgreSQL</span>
+            </div>
+        </div>
+        <div class="col-span-12 md:col-span-6 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-xl font-semibold mb-4">The Untouchables</h3>
+            <p>Competitive multiplayer game where players push each other off a platform.</p>
+            <div class="flex flex-wrap gap-2 mt-2">
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Babylon.js</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">Node.js</span>
+                <span class="bg-white/10 border border-emerald-500/30 rounded-full px-3 py-1 text-sm">PostgreSQL</span>
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="col-span-12 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-xl font-semibold mb-4">Experience</h3>
+            <div class="space-y-4">
+                <!-- Freelance Developer -->
+                <div class="flex flex-col space-y-2">
+                    <h4 class="font-semibold">FREELANCE DEVELOPER - ANKARA, TÜRKIYE</h4>
+                    <p class="text-gray-400">01/01/2022 – 01/08/2023</p>
+                    <p>Developed clones of popular games and published them on GitHub. Contributed to open-source projects and showcased advanced programming skills.</p>
+                </div>
+                <!-- Full Stack Developer -->
+                <div class="flex flex-col space-y-2">
+                    <h4 class="font-semibold">FULL STACK DEVELOPER - MUGLA, TÜRKIYE</h4>
+                    <p class="text-gray-400">01/08/2023 – 30/04/2024</p>
+                    <p>Developed multiplayer browser-based games using technologies like Babylon.js and PostgreSQL. Managed backend infrastructure for real-time communication.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-span-12 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-emerald-500/50 transition-all duration-300" data-aos="fade-up">
+            <h3 class="text-xl font-semibold mb-4">Contact</h3>
+            <div class="flex flex-col space-y-2">
+                <p>Email: <a href="mailto:mesutkrz@outlook.com" class="text-emerald-400 hover:text-white">mesutkrz@outlook.com</a></p>
+                <p>Phone: <a href="tel:+905433972589" class="text-emerald-400 hover:text-white">(+90) 5433972589</a></p>
+                <p>Location: Ankara, Türkiye</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            // Initialize Lucide icons
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+            
+            // Initialize AOS with safe settings
+            if (typeof AOS !== 'undefined') {
+                AOS.init({
+                    duration: 800,
+                    once: true,
+                    offset: 50,
+                    disable: 'mobile'
+                });
+            }
+            
+            // Fallback: ensure all elements visible after 1 second
+            setTimeout(function() {
+                document.querySelectorAll('[data-aos]').forEach(function(el) {
+                    el.classList.add('aos-animate');
+                });
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
