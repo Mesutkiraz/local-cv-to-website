@@ -528,14 +528,6 @@ You're free to use, modify, and distribute this project, even for commercial pur
 
 ---
 
-## ⭐ Support & Feedback
-
-- 🐛 Found a bug? [Open an issue](https://github.com/yourusername/cv-portfolio-ai/issues)
-- 💡 Have an idea? [Start a discussion](https://github.com/yourusername/cv-portfolio-ai/discussions)
-- ⭐ Love it? Please star the repo!
-
----
-
 ## 🙏 Acknowledgments
 
 - **[Ollama](https://ollama.ai)** — For making local LLM serving accessible
